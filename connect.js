@@ -10,7 +10,7 @@
 let redirect_url = "https://github.com/kardespro"
 const cfg = require("./proxy.json");
 const request = require('request');
-
+console.log(`Listening ${cfg.ips.lenght || "Unknown"} Proxies `);
 cfg.forEach(x => {
 request({
   'url':redirect_url,
