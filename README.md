@@ -8,8 +8,7 @@ Example Proxy.Json File
 
 ```json
 {
-"xxx.xx.xx.xx:xxxx",
-"xxx.xx.xx.xx:xxxx"
+"ips": ["xxx.xx.xx.xx:xxxx","xxx.xx.xx.xx:xxxx"]
 }
 ```
 
